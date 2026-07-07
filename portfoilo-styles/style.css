@@ -3,6 +3,9 @@
      margin: 0;
      font-family: "Open Sans", sans-serif;
 }
+img{
+     width: 100%;
+}
 header {
      background-color: rgb(255, 255, 255);
 }
@@ -19,13 +22,37 @@ header {
 
 .common-btn {
      background-color: #fd6e0a;
-     padding: 6px 15px;
+     padding: 10px 20px;
      border-radius: 12px;
      font-weight: bold;
      font-size: 22px;
      color: white;
      border: none;
      text-decoration: none;
+     cursor: pointer;
+}
+/* outline button */
+
+.outline-btn {
+     background-color: white;
+     padding: 10px 20px;
+     border-radius: 12px;
+     font-weight: bold;
+     font-size: 22px;
+     color: #fd6e0a;
+     border: none;
+     text-decoration: none;
+     border: 1px solid #fd6e0a;
+     cursor: pointer;
+}
+
+
+/* Common PX */
+
+.container {
+     max-width: 1200px;
+     margin: auto;
+
 }
 
 /* General nav links */
@@ -63,3 +90,35 @@ ul {
 ul li a {
      text-decoration: none;
 }
+
+/* Hero Section Style */
+
+.hero-parent-root {
+     background-color: white;
+}
+
+.hero-parent{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1200px;
+     margin: auto;
+}
+
+.hero-left h2 {
+     font-weight: blod;
+     font-size: 40px;
+     margin-top: 12px;
+}
+
+.hero-left-p1{
+     font-weight: 600;
+     font-size: 18px;
+
+}
+.hero-left-btn-parent {
+     margin-top: 12px;
+     display: flex;
+     gap: 10px;
+}
+
