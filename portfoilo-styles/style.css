@@ -331,7 +331,252 @@ hr{
     padding: 60px 0 80px;
 }
 
+/* Footer CSS */
 
+.contact-section{
+
+    width:100%;
+    padding:100px 0;
+    background:#fdf8f3;
+}
+
+/* ===========================
+   Container
+=========================== */
+
+.contact-container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    gap:100px;
+}
+
+/* ===========================
+   Left Side
+=========================== */
+
+.contact-info{
+
+    flex:1;
+}
+
+.contact-title{
+
+    font-size:40px;
+    font-weight:700;
+
+    color:#181818;
+
+    margin-bottom:25px;
+}
+
+.contact-description{
+
+    font-size:16px;
+    line-height:28px;
+
+    color:#757575;
+
+    max-width:450px;
+
+    margin-bottom:30px;
+}
+
+/* ===========================
+   Social Icons
+=========================== */
+
+.social-icons{
+
+    display:flex;
+    gap:20px;
+}
+
+.social-link{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+}
+
+.social-link img{
+
+    width:22px;
+
+    height:22px;
+
+    display:block;
+
+    transition:0.3s;
+
+}
+
+.social-link img:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ===========================
+   Image Placeholder
+=========================== */
+
+.contact-image{
+
+    margin-top:40px;
+
+    width:100%;
+}
+
+/*
+
+.contact-image img{
+
+    width:100%;
+    display:block;
+}
+
+*/
+
+/* ===========================
+   Right Side
+=========================== */
+
+.contact-form-wrapper{
+
+    flex:1;
+}
+
+.form-title{
+
+    font-size:40px;
+    font-weight:700;
+
+    color:#181818;
+
+    margin-bottom:30px;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.contact-form{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:24px;
+}
+
+/* ===========================
+   Input
+=========================== */
+
+.form-input{
+
+    width:100%;
+
+    height:64px;
+
+    padding:20px;
+
+    border:none;
+
+    outline:none;
+
+    background:#ffffff;
+
+    font-size:16px;
+
+    border-radius:5px;
+}
+
+/* ===========================
+   Textarea
+=========================== */
+
+.form-textarea{
+
+    width:100%;
+
+    height:180px;
+
+    padding:20px;
+
+    border:none;
+
+    outline:none;
+
+    resize:none;
+
+    background:#ffffff;
+
+    font-size:16px;
+
+    border-radius:5px;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.submit-btn{
+
+    width:160px;
+
+    height:64px;
+
+    border:none;
+
+    cursor:pointer;
+
+    background:#FD6E0A;
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    border-radius:5px;
+
+    transition:.3s;
+}
+
+.submit-btn:hover{
+
+    background:#e15f00;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+    .contact-container{
+
+        flex-direction:column;
+
+        gap:60px;
+    }
+
+    .contact-title,
+    .form-title{
+
+        font-size:32px;
+    }
+
+}
 
 
 
